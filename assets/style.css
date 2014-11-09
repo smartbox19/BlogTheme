@@ -64,7 +64,7 @@
 }
 
 .post_body {
-	line-height:1.7;
+	line-height:2;
 	font-family:"Tisa Pro",serif;
 	color:#5a5a5a;
 	
@@ -76,6 +76,10 @@
 	font-size:12px;
 	font-family:"Proxima Nova",sans-serif;
 	font-weight:100;
+}
+
+.post_body div {
+	padding-bottom:10px;
 }
 
 @media 
