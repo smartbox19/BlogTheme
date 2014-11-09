@@ -67,3 +67,15 @@
 	font-family:"Proxima Nova",sans-serif;
 	font-weight:100;
 }
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    #logo a {
+		background-image:url('logo@2x.png');
+	}
+	#logo a:hover { 
+		background-image:url('logohover@2x.png');
+		
+	}
+}
