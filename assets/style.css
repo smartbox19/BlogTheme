@@ -2,6 +2,7 @@
 	background-image:url('logo.png');
 	width:229px;
 	height:34px;
+	display:block;
 }
 
 #logo:hover {
