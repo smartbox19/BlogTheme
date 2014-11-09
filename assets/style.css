@@ -73,9 +73,12 @@
 (min-resolution: 192dpi) { 
     #logo a {
 		background-image:url('logo@2x.png');
+		background-size:229px 34px;
 	}
 	#logo a:hover { 
 		background-image:url('logohover@2x.png');
+		background-size:234px 34px;
+		
 		
 	}
 }
