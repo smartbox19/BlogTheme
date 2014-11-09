@@ -1,0 +1,9 @@
+#logo a {
+	background-image:url('logo.png');
+	width:229px;
+	height:34px;
+}
+
+#logo:hover {
+	background-image:url('logohover.png');
+}

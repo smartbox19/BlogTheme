@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>
+			  {% if is_login %}Login
+		      {% elif is_home %}{{ site.author }}
+		      {% elif is_tag %}{{ tag }}
+		      {% elif post %}{{ post.title }}
+		      {% endif %}
+		      | {{ site.name }}
+			  
+		</title>
+		
+		{{header_meta}}
+		
+		<link rel="stylesheet" type="text/css" href="{{ assets('style.css') }}" />
+		
+	</head>
+	<body>
+		{% if is_login %}
+			{{login_form}}
+		{% else %}
+			<div id="wrapper">
+				<header>
+					<h1 id="logo">
+						<a href="/">
+							
+						</a>
+					</h1>
+				</header>
+			</div>
+		{% endif %}
+		
+		{{ footer_meta }}
+		
+	</body>
+</html>
