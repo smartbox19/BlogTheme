@@ -47,7 +47,14 @@
 							{% endfor %}
 						</div>
 						{% endif %}
-					{%endif%}
+					{%elif post%}
+						<div class="post_single">
+							<h3><a href="#">{{post.title}}</a> / {{ post.created_at|format_date }}</h3>
+							<div class="post_body" data-type-cleanup="true">
+								{{post.content}}
+							</div>
+						</div>
+					{%endif}
 				</div>
 			</div>
 		{% endif %}
