@@ -4,7 +4,8 @@
 }
 #wrapper {
 	width:650px;
-	padding:25px;
+	padding:35px;
+	padding-left:55px !important;
 }
 #logo {
 	position:relative;
@@ -20,7 +21,7 @@
 
 #logo a:hover {
 	background-image:url('logohover.png');
-	width:229px;
+	width:234px;
 	height:34px;
 	display:block;
 	float:left;
@@ -28,6 +29,6 @@
 
 #invader {
 	position:absolute;
-	left:-15px;
+	left:-45px;
 	
 }
