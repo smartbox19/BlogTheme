@@ -36,8 +36,13 @@
 .clear {
 	clear:both;
 }
-
 .post_item h3 a {
+	color:#393939;
+	font-family:"Proxima Nova",sans-serif;
+	text-transform:lowercase;
+	text-decoration:none;
+}
+.post_item h3 a:hover {
 	color:#393939;
 	font-family:"Proxima Nova",sans-serif;
 	text-transform:lowercase;
