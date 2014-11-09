@@ -2,20 +2,32 @@
 	margin:0;
 	padding:0;
 }
+#wrapper {
+	width:650px;
+	padding:25px;
+}
+#logo {
+	position:relative;
+	
+}
 #logo a {
 	background-image:url('logo.png');
 	width:229px;
 	height:34px;
-	display:inline-block;
+	display:block;
+	float:left;
 }
 
 #logo:hover {
 	background-image:url('logohover.png');
 	width:229px;
 	height:34px;
-	display:inline-block;
+	display:block;
+	float:left;
 }
 
 #invader {
-	display:inline-block;
+	position:absolute;
+	left:-15px;
+	
 }
