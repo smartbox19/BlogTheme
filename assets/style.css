@@ -18,7 +18,7 @@
 	float:left;
 }
 
-#logo:hover {
+#logo a:hover {
 	background-image:url('logohover.png');
 	width:229px;
 	height:34px;
