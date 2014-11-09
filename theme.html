@@ -39,7 +39,7 @@
 						<div class="posts">
 							{% for post in posts %}
 								<div class="post_item">
-									<h3><a href="{{post.permalink}}">{{post.title}}</a> / {{ post.created_at|format_date }}</h3>
+									<h3><span>{{post.title}}</span> / {{ post.created_at|format_date }}</h3>
 									<div class="post_body" data-type-cleanup="true">
 										{{post.content}}
 									</div>
@@ -47,13 +47,6 @@
 							{% endfor %}
 						</div>
 						{% endif %}
-					{%elif post%}
-						<div class="post_single">
-							<h3><a href="#">{{post.title}}</a> / {{ post.created_at|format_date }}</h3>
-							<div class="post_body" data-type-cleanup="true">
-								{{post.content}}
-							</div>
-						</div>
 					{%endif%}
 				</div>
 			</div>
