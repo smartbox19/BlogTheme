@@ -1,10 +1,21 @@
+* {
+	margin:0;
+	padding:0;
+}
 #logo a {
 	background-image:url('logo.png');
 	width:229px;
 	height:34px;
-	display:block;
+	display:inline-block;
 }
 
 #logo:hover {
 	background-image:url('logohover.png');
+	width:229px;
+	height:34px;
+	display:inline-block;
+}
+
+#invader {
+	display:inline-block;
 }
